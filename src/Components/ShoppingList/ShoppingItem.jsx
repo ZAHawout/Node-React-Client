@@ -35,10 +35,10 @@ export default function ShoppingItem({ id, itemName, quantity, deleteItem, updat
     );
 
     return (
-        <li>
+        <div class="shoppingListItems">
             {isEdit ? EditJsx : ReadOnlyJsx}
             <button onClick={handleDelete}>Delete</button>
             <button onClick={handleEdit}>{isEdit ? "Cancel" : "Edit"}</button>
-        </li>
+        </div>
     );
 }

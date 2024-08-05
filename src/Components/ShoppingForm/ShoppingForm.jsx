@@ -25,9 +25,10 @@ export default function ShoppingForm({
     }
 
     return (
-        <form class="rowItem" action="#" method="POST" onSubmit={handleSubmit}>
+        <form class="formBox" action="#" method="POST" onSubmit={handleSubmit}>
             <label htmlFor="item">Item</label>
             <input
+                class="itemBox"
                 type="text" 
                 required
                 id="item"
@@ -35,7 +36,8 @@ export default function ShoppingForm({
                 value={item}
                 onChange={handleItemChange} />
             <label htmlFor="quantity">Quantity</label>
-            <input 
+            <input
+                class="quantityBox" 
                 type="number"
                 id="quantity"
                 name="quantity"
@@ -43,7 +45,7 @@ export default function ShoppingForm({
                 required 
                 min="0"
                 onChange={handleQuantityChange} />
-            <button type="submit">{ submitButtonText }</button>
+            <button class="submitButton" type="submit">{ submitButtonText }</button>
         </form>
     );
 }
