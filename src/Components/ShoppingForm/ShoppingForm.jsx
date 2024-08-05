@@ -25,7 +25,7 @@ export default function ShoppingForm({
     }
 
     return (
-        <form action="#" method="POST" onSubmit={handleSubmit}>
+        <form class="rowItem" action="#" method="POST" onSubmit={handleSubmit}>
             <label htmlFor="item">Item</label>
             <input
                 type="text" 
