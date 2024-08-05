@@ -1,6 +1,6 @@
 {
-  "homepage": "http://ZAHawout.github.io/Node-React-Client",
-  "name": "Node-React-Client",
+  "homepage": "http://ZAHawout.github.io/node-react-client",
+  "name": "node-react-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
