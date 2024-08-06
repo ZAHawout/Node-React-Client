@@ -1,9 +1,13 @@
 html {
-  background-color: green;
+  background-color: rgb(152, 137, 137);
+}
+
+.App {
+  text-align:center;
 }
 
 .formBox {
-  background-color: yellow;
+  background-color: white;
   padding: 20px;
   margin: 10px;
   border-radius: 30px;
@@ -16,24 +20,22 @@ html {
 
 .itemBox {
   margin: 10px;
+  border-width: 2px;
 }
 
 .quantityBox {
   margin: 10px;
+  border-width: 2px;
 }
 
 .submitButton {
   margin: auto;
-  background-color: cornflowerblue;
+  background-color: rgb(152, 137, 137);
   border-radius: 30px;
 }
 
-.App {
-  text-align:center;
-}
-
 .shoppingListItems {
-  background-color: yellow;
+  background-color: white;
   padding: 10px;
   margin: 10px;
   border-radius: 30px;
@@ -50,6 +52,6 @@ ul {
 button {
   margin: auto;
   margin-left: 5px;
-  background-color: cornflowerblue;
+  background-color: rgb(152, 137, 137);
   border-radius: 30px;
 }
