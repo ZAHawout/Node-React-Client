@@ -1,14 +1,14 @@
 # Shopping List
 
-Hosting: 
+Hosting: https://zahawout.github.io/Node-React-Client/
 
 The objective of this project is to store items in a list that can be easily referenced while shopping.
 
 An item contains:
 
-an item name field
+An item name field
 
-a quantity field
+A quantity field
 
 ## User stories
 
